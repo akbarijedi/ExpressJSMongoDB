@@ -1,14 +1,14 @@
 # ExpressJSMongoDB
 
-Express JS + MongoDB = Simple Tells Database with Express JS and MongoDB with List + Edit + New + Delete (CRUD)
+Express.js + MongoDB = Simple Tells Database with Express.js and MongoDB with List + Edit + New + Delete (CRUD)
 
 
 
  
 ## Beafore start:
 
-  1) [NodeJS](https://nodejs.org/en/download/ "Download Latest Version of NodeJS") must Installed.
-  2) [MongoDB](https://www.mongodb.com/try/download/community "Download Latest Version of MongoDB") Must installed.
+  1) [NodeJS](https://nodejs.org/en/download/ "Download Latest Version of NodeJS") Must be Installed.
+  2) [MongoDB](https://www.mongodb.com/try/download/community "Download Latest Version of MongoDB") Must be installed.
 
 
 
