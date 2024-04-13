@@ -10,17 +10,18 @@
 <hr>
     <div class="d-flex flex-row justify-content-between">
 <div>
+    <!--  INSERT Tell Form -->
     <form action="/saveTell" method="post" class="my-3 col">
         <label class="hidden" for="personName" class="sr-print">نام</label>
         <input type="text" placeholder="نام/نام خانوادگی/سمت" name="personName" id="personName" class="">
         <label class="hidden" for="personTell">داخلی/تلفن</label>
         <input type="text" placeholder="تلفن/موبایل/داخلی" name="personTell" id="personTell">
-
         <input type="submit" value="ذخیره" class="btn btn-sm btn-info">
     </form>
     <!-- <%- include('../views/edit'); %> -->
 </div>
 <div>
+    <!--  SEARCH Tells Form -->
     <form action="/search" method="post" class="my-3"><input type="text" class="mx-1" name="searchme" id="searchme" placeholder="جستجو"><input type="submit" value="جستجو" onchange=""></form>
 </div>
 </div>
@@ -32,6 +33,7 @@
             <th>ابزارها</th>
         </thead>
         <tbody>
+            <!--          TELLS List Begins         -->
             <% tells.forEach(tellrow => { %>
                 <tr>
                     <td>
@@ -48,7 +50,7 @@
                     </td>
                 </tr>
             <% }) %>
-           
+            <!--    TELLS List End         -->
             
         </tbody>
     </table>
