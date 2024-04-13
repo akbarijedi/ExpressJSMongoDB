@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<%- include('../views/header') %>
+    <title>Edit</title>
+</head>
+<body dir="rtl">
+    <div class="container my-5 p-5 form-control">
+        <h2 class="mb-3">ویرایش</h2>
+
+    <form action="/editsave" method="post">
+        <input type="hidden" name="edit_tell_id" value="<%= tells._id %>">
+        <label  for="personName">نام</label>
+        <input type="text" placeholder="نام/نامخانوادگی/سمت" name="personName" id="personName" class="" value="<%= tells.name %>">
+        <label  for="personTell">داخلی/تلفن</label>
+        <input type="text" placeholder="تلفن/موبایل/داخلی" name="personTell" id="personTell" value="<%= tells.tell %>">
+        <input type="submit" value="ذخیره" class="btn btn-sm btn-success">
+    </form>    
+</div>
+</body>
+</html>
