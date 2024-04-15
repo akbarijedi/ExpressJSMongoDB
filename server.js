@@ -57,4 +57,6 @@ app.post('/search',async (req,res)=>{
     res.render('index', {tells:searchres})
 
 })
+console.log('Hi, Server started! Have Fun ;)' )
+console.log('GO to :'+"\u001B[32m" +' http://127.0.0.1:5000' + "\u001B[0m")
 app.listen(process.env.PORT || 5000)
