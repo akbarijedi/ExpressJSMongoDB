@@ -1,13 +1,19 @@
+// define expressJS
 const express = require('express')
+// Define Mongoose to connect with MongoDB
 const mongoose = require('mongoose')
+// Define Tell data Model
 const tell = require('./models/tell')
+
 const app = express()
 
+// MongoDB Server
 mongoose.connect('mongodb://localhost/tell')
 
 app.set('view engine', 'ejs')
 app.use(express.urlencoded({extended : false}))
 
+// Main Route
 app.get('/',async (req,res)=>{
     
     const tells = await tell.find()
@@ -35,12 +41,14 @@ app.get('/edit',async (req,res)=>{
     res.render('edit',{tells:edittell})
 })
 
+
 // Save edit
 app.post('/editsave',async (req,res)=>{
     await tell.updateOne({_id:req.body.edit_tell_id},{ name:req.body.personName, tell:req.body.personTell })
     res.redirect('/')
 })
 
+// Search Functions ...........
 app.post('/search',async (req,res)=>{
     const searchterm = req.body.searchme;
     const searchres = await tell.find({
@@ -57,6 +65,8 @@ app.post('/search',async (req,res)=>{
     res.render('index', {tells:searchres})
 
 })
+
+// Server PORT ................
 console.log('Hi, Server started! Have Fun ;)' )
 console.log('GO to :'+"\u001B[32m" +' http://127.0.0.1:5000' + "\u001B[0m")
 app.listen(process.env.PORT || 5000)
