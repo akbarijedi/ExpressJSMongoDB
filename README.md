@@ -1,4 +1,14 @@
 # ExpressJSMongoDB
+
+[![EN](https://img.shields.io/badge/lang-EN-red.svg)](https://github.com/akbarijedi/ExpressJSMongoDB/blob/master/README.md)
+[![FA](https://img.shields.io/badge/lang-FA-blue.svg)](https://github.com/akbarijedi/ExpressJSMongoDB/blob/master/README.FA.md)
+
+![MongoDB](https://img.shields.io/badge/MongoDB-green.svg)
+![expressjs](https://img.shields.io/badge/expressjs-orange.svg)
+![mongoose](https://img.shields.io/badge/mongoose-darkred.svg)
+![nodejs](https://img.shields.io/badge/nodejs-darkgreen.svg)
+
+
 [<img style="height:100px" src="images/mongodb.png">]("https://github.com/akbarijedi/ExpressJSMongoDB")
 [<img style="height:100px" src="images/expressjs.png">]("https://github.com/akbarijedi/ExpressJSMongoDB")
 [<img style="height:100px" src="images/mongoose.png">]("https://github.com/akbarijedi/ExpressJSMongoDB")
@@ -31,7 +41,7 @@ Express.js + MongoDB = Simple Tells Database with Express.js and MongoDB with Li
 ## Installation
 
 1) Clone the project
-2) Go to the project directory and Run the command for installing dependencies :
+2) Go to the project directory (ExpressJSMongoDB) and Run the command for installing dependencies :
     ```
     npm install
     ```

@@ -1,4 +1,14 @@
 # ExpressJSMongoDB
+
+[![EN](https://img.shields.io/badge/lang-EN-red.svg)](https://github.com/akbarijedi/ExpressJSMongoDB/blob/master/README.md)
+[![FA](https://img.shields.io/badge/lang-FA-blue.svg)](https://github.com/akbarijedi/ExpressJSMongoDB/blob/master/README.FA.md)
+
+![MongoDB](https://img.shields.io/badge/MongoDB-green.svg)
+![expressjs](https://img.shields.io/badge/expressjs-orange.svg)
+![mongoose](https://img.shields.io/badge/mongoose-darkred.svg)
+![nodejs](https://img.shields.io/badge/nodejs-darkgreen.svg)
+
+
 [<img style="height:100px" src="images/mongodb.png">]("https://github.com/akbarijedi/ExpressJSMongoDB")
 [<img style="height:100px" src="images/expressjs.png">]("https://github.com/akbarijedi/ExpressJSMongoDB")
 [<img style="height:100px" src="images/mongoose.png">]("https://github.com/akbarijedi/ExpressJSMongoDB")
@@ -31,7 +41,7 @@
 ## نصب
 
 1) این پروژه را در رایانه خود کپی نمایید
-2) به پوشه مورد نظر وراد شده و دستور زیر را برای نصب افزونه ها و موارد مورد نیاز اجرا نمائید :
+2) به پوشه (ExpressJSMongoDB) وراد شده و دستور زیر را برای نصب افزونه ها و موارد مورد نیاز اجرا نمائید :
     ```
     npm install
     ```
