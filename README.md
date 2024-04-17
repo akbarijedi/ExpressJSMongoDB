@@ -14,11 +14,6 @@
 ![CSS](https://img.shields.io/badge/CSS-black.svg)
 
 
-<img style="height:100px;border-radius: 15px;" alt="mongodb" src="images/mongodb.png">
-<img style="height:100px;border-radius: 15px;" alt="expressjs" src="images/expressjs.png">
-<img style="height:100px;border-radius: 15px;" alt="mongoose" src="images/mongoose.png">
-<img style="height:100px;border-radius: 15px;" alt="nodejs" src="images/nodejs.png">
-
 Express.js + MongoDB = Simple Tells Database with Express.js and MongoDB with List + Edit + New + Delete (CRUD)
 
 

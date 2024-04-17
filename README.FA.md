@@ -14,11 +14,6 @@
 ![CSS](https://img.shields.io/badge/CSS-black.svg)
 
 
-<img style="height:100px;border-radius: 15px;" alt="mongodb" src="images/mongodb.png">
-<img style="height:100px;border-radius: 15px;" alt="expressjs" src="images/expressjs.png">
-<img style="height:100px;border-radius: 15px;" alt="mongoose" src="images/mongoose.png">
-<img style="height:100px;border-radius: 15px;" alt="nodejs" src="images/nodejs.png">
-
 
  یک برنامه بسیار ساده و کاربردی بانک اطلاعاتی تلفن با  قابلیت های اضافه کردن + حذف کردن + ویرایش کردن + نمایش لیست و جستجو است.
 
