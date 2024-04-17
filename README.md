@@ -4,21 +4,24 @@
 [![FA](https://img.shields.io/badge/lang-FA-blue.svg)](https://github.com/akbarijedi/ExpressJSMongoDB/blob/master/README.FA.md)
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-green.svg)
-![expressjs](https://img.shields.io/badge/expressjs-orange.svg)
-![mongoose](https://img.shields.io/badge/mongoose-darkred.svg)
-![nodejs](https://img.shields.io/badge/nodejs-darkgreen.svg)
+![expressjs](https://img.shields.io/badge/ExpressJS-orange.svg)
+![mongoose](https://img.shields.io/badge/Mongoose-darkred.svg)
+![nodejs](https://img.shields.io/badge/NodeJS-darkgreen.svg)
+![JavaScript](https://img.shields.io/badge/JavaScript-black.svg)
+![EJS](https://img.shields.io/badge/EJS-black.svg)
+![HTML](https://img.shields.io/badge/HTML-black.svg)
+![CSS](https://img.shields.io/badge/CSS-black.svg)
 
 
-[<img style="height:100px" src="images/mongodb.png">]("https://github.com/akbarijedi/ExpressJSMongoDB")
-[<img style="height:100px" src="images/expressjs.png">]("https://github.com/akbarijedi/ExpressJSMongoDB")
-[<img style="height:100px" src="images/mongoose.png">]("https://github.com/akbarijedi/ExpressJSMongoDB")
-[<img style="height:100px" src="images/nodejs.png">]("https://github.com/akbarijedi/ExpressJSMongoDB")
-
+<img style="height:100px;border-radius: 15px;" alt="mongodb" src="images/mongodb.png">
+<img style="height:100px;border-radius: 15px;" alt="expressjs" src="images/expressjs.png">
+<img style="height:100px;border-radius: 15px;" alt="mongoose" src="images/mongoose.png">
+<img style="height:100px;border-radius: 15px;" alt="nodejs" src="images/nodejs.png">
 
 Express.js + MongoDB = Simple Tells Database with Express.js and MongoDB with List + Edit + New + Delete (CRUD)
 
 
-[<img style="height:400px;box-shadow:10px;" src="images/program-express.png">]("https://github.com/akbarijedi/ExpressJSMongoDB")
+<img style="width:700px;border-radius: 10px;" alt="ExpressJSMongoDB" src="images/program-express.png">
 
  
 ## Before start:
