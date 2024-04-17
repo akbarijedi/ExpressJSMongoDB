@@ -9,6 +9,7 @@
 ![nodejs](https://img.shields.io/badge/NodeJS-darkgreen.svg)
 ![JavaScript](https://img.shields.io/badge/JavaScript-black.svg)
 ![EJS](https://img.shields.io/badge/EJS-black.svg)
+![BootStrap](https://img.shields.io/badge/BootStrap-black.svg)
 ![HTML](https://img.shields.io/badge/HTML-black.svg)
 ![CSS](https://img.shields.io/badge/CSS-black.svg)
 
