@@ -11,7 +11,7 @@ Express.js + MongoDB = Simple Tells Database with Express.js and MongoDB with Li
 [<img style="height:400px;box-shadow:10px;" src="images/program-express.png">]("https://github.com/akbarijedi/ExpressJSMongoDB")
 
  
-## Beafore start:
+## Before start:
 
   1) [NodeJS](https://nodejs.org/en/download/ "Download Latest Version of NodeJS") Must be Installed.
   2) [MongoDB](https://www.mongodb.com/try/download/community "Download Latest Version of MongoDB") Must be installed.
@@ -31,7 +31,7 @@ Express.js + MongoDB = Simple Tells Database with Express.js and MongoDB with Li
 ## Installation
 
 1) Clone the project
-2) Run the command for installing dependencies :
+2) Go to the project directory and Run the command for installing dependencies :
     ```
     npm install
     ```
