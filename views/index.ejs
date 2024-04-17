@@ -6,7 +6,7 @@
 </head>
 <body dir="rtl">
     <div class="container card p-3 mx-auto m-5">
-    <h1 class="">تلفن ها</h1>
+    <a href="/"><h1 class="">تلفن ها</h1></a>
 <hr>
     <div class="d-flex flex-row justify-content-between">
 <div>
@@ -22,7 +22,7 @@
 </div>
 <div>
     <!--  SEARCH Tells Form -->
-    <form action="/search" method="post" class="my-3"><input type="text" class="mx-1" name="searchme" id="searchme" placeholder="جستجو"><input type="submit" value="جستجو" onchange=""></form>
+    <form action="/search" method="post" class="my-3"><input type="text" class="mx-1" name="searchme" id="searchme" placeholder="جستجو"><input type="submit" value="جستجو" onkeyup="console.log(this.event.searchme.value)"></form>
 </div>
 </div>
 
